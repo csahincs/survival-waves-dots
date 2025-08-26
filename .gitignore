@@ -98,5 +98,8 @@ InitTestScene*.unity*
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
 
+# Scene Dependency Cache
+/[Aa]ssets/[Ss]ceneDependenceCache/
+
 # Jetbrain Rider Cache
 .idea/
