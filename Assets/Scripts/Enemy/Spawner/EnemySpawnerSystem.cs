@@ -36,9 +36,7 @@ namespace Enemy.Spawner
             var x = math.cos(angle) * radius;
             var z = math.sin(angle) * radius;
             
-            Debug.LogError($"{x} - {z}");
-            
-            state.EntityManager.SetComponentData(enemyEntity, LocalTransform.FromPosition(x, 1, z));
+            state.EntityManager.SetComponentData(enemyEntity, LocalTransform.FromPosition(x, 0, z));
         }
     }
 }

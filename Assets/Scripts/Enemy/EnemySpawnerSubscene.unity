@@ -148,7 +148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c3477f813b135c42a9b19833feeed75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Prefab: {fileID: 919132149155446097, guid: 399221ec160d4714aa8fb43760f193dc, type: 3}
+  Prefab: {fileID: 6799235788924598039, guid: 9a2eb79823e16b44f901a7e683ff8d4a, type: 3}
   InnerCircleRadius: 5
   OuterCircleRadius: 10
   SpawnTime: 0.5
