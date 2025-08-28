@@ -2,7 +2,6 @@ using Unity.Burst;
 using Unity.Entities;
 using Unity.Mathematics;
 using Unity.Transforms;
-using UnityEngine;
 
 namespace Enemy.Spawner
 {
@@ -20,7 +19,7 @@ namespace Enemy.Spawner
         public void OnUpdate(ref SystemState state)
         {
             var enemySpawner = SystemAPI.GetSingleton<EnemySpawnerComponent>();
-            var random = new Unity.Mathematics.Random((uint)(SystemAPI.Time.ElapsedTime * 1000));
+            var random = new Random((uint)((SystemAPI.Time.ElapsedTime + 1) * 1000));
 
             _currentTimer += SystemAPI.Time.DeltaTime;
 
