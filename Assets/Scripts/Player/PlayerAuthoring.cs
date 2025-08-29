@@ -1,4 +1,4 @@
-using Player.Movement;
+using Movement;
 using Unity.Entities;
 using UnityEngine;
 
@@ -14,7 +14,7 @@ namespace Player
             {
                 var entity = GetEntity(authoring, TransformUsageFlags.Dynamic);
                 AddComponent<PlayerComponent>(entity);
-                AddComponent(entity, new PlayerMovementComponent()
+                AddComponent(entity, new MovementComponent()
                 {
                     Speed = authoring.Speed,
                 });
